@@ -4,7 +4,6 @@ gem 'rails', '3.2.3'
 gem 'netzke-persistence'
 
 gem 'sqlite3'
-gem 'mysql2'
 
 # Use unicorn as the web server
 # gem 'unicorn'
