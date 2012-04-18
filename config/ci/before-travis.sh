@@ -1,5 +1,4 @@
 # Start xvfb in preparation for cucumber
-export DISPLAY=:99.0
 sh -e /etc/init.d/xvfb start
 
 # fetch extjs
