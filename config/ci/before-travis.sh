@@ -9,6 +9,3 @@ mv test/core_test_app/public/ext-4.0.7-gpl test/core_test_app/public/extjs
 # cp db configuration
 cp test/core_test_app/config/database.yml.travis  test/core_test_app/config/database.yml
 
-# create mysql database
-mysql -e 'create database nct_test;'
-
