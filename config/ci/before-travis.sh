@@ -12,7 +12,3 @@ cp test/core_test_app/config/database.yml.travis  test/core_test_app/config/data
 # create mysql database
 mysql -e 'create database nct_test;'
 
-cd test/core_test_app
-bundle install
-bundle exec rake db:migrate RAILS_ENV=test
-cd ../..

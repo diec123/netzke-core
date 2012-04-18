@@ -11,9 +11,10 @@ branches:
 before_script: 
   - chmod 777 ./config/ci/before-travis.sh
   - ./config/ci/before-travis.sh
-script: 
+script:
   - export DISPLAY=:99.0
   - cd test/core_test_app
+  - bundle exec rake db:migrate RAILS_ENV=test
   - bundle exec rspec spec
   - bundle exec cucumber features
-
+  
