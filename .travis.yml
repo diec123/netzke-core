@@ -10,4 +10,5 @@ before_script:
 script: 
   - cd test/core_test_app
   - bundle exec rspec spec
+  - bundle exec cucumber features
 
