@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - 1.9.2
+branches:
+only:
+  - travisci
+before_script: "./config/ci/before-travis.sh"
+script: "cd test/core_test_app ; bundle exec rspec spec"
+
